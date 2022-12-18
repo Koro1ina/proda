@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TreeTableColumn?>
+<?import javafx.scene.control.TreeTableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1"
+fx:controller="com.example.hystory.HelloController">
+   <children>
+      <TreeTableView fx:id="table" layoutX="21.0" layoutY="14.0" prefHeight="359.0" prefWidth="554.0">
+        <columns>
+          <TreeTableColumn fx:id="tableFIO" prefWidth="269.0" text="ФИО" />
+          <TreeTableColumn fx:id="tableVxod" prefWidth="284.0" text="Последнне время входа" />
+        </columns>
+      </TreeTableView>
+   </children>
+</AnchorPane>
